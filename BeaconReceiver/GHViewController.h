@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "RippleView.h"
 
-@interface GHViewController : UIViewController
+@interface GHViewController : UIViewController<CLLocationManagerDelegate, UIAlertViewDelegate>
+
+@property (strong, nonatomic) CLBeaconRegion *beaconRegion;
+@property (strong, nonatomic) CLLocationManager *locationManager;
+
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+@property (weak, nonatomic) IBOutlet UILabel *uuidLabel;
 
 @end

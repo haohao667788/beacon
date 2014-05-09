@@ -21,6 +21,11 @@
 		0E4DE15518F5826600187189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4DE13718F5826600187189 /* UIKit.framework */; };
 		0E4DE15D18F5826600187189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E4DE15B18F5826600187189 /* InfoPlist.strings */; };
 		0E4DE15F18F5826600187189 /* BeaconReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DE15E18F5826600187189 /* BeaconReceiverTests.m */; };
+		0E4DE16918F582B900187189 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4DE16818F582B900187189 /* CoreLocation.framework */; };
+		0E9CC89118FAB66D00409C34 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CC89018FAB66D00409C34 /* SignInViewController.m */; };
+		0E9CC89718FAB88300409C34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CC89618FAB88300409C34 /* ViewController.m */; };
+		0E9CC89918FAFB8600409C34 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E9CC89818FAFB8600409C34 /* data.plist */; };
+		0ED1D4C118FEE24900F79223 /* RippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED1D4C018FEE24900F79223 /* RippleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		0E4DE15A18F5826600187189 /* BeaconReceiverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconReceiverTests-Info.plist"; sourceTree = "<group>"; };
 		0E4DE15C18F5826600187189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E4DE15E18F5826600187189 /* BeaconReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconReceiverTests.m; sourceTree = "<group>"; };
+		0E4DE16818F582B900187189 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0E9CC88F18FAB66D00409C34 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		0E9CC89018FAB66D00409C34 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		0E9CC89518FAB88300409C34 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E9CC89618FAB88300409C34 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E9CC89818FAFB8600409C34 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		0ED1D4BF18FEE24900F79223 /* RippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleView.h; sourceTree = "<group>"; };
+		0ED1D4C018FEE24900F79223 /* RippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4DE16918F582B900187189 /* CoreLocation.framework in Frameworks */,
 				0E4DE13618F5826600187189 /* CoreGraphics.framework in Frameworks */,
 				0E4DE13818F5826600187189 /* UIKit.framework in Frameworks */,
 				0E4DE13418F5826600187189 /* Foundation.framework in Frameworks */,
@@ -101,6 +115,7 @@
 		0E4DE13218F5826600187189 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E4DE16818F582B900187189 /* CoreLocation.framework */,
 				0E4DE13318F5826600187189 /* Foundation.framework */,
 				0E4DE13518F5826600187189 /* CoreGraphics.framework */,
 				0E4DE13718F5826600187189 /* UIKit.framework */,
@@ -119,6 +134,13 @@
 				0E4DE14918F5826600187189 /* GHViewController.m */,
 				0E4DE14B18F5826600187189 /* Images.xcassets */,
 				0E4DE13A18F5826600187189 /* Supporting Files */,
+				0E9CC88F18FAB66D00409C34 /* SignInViewController.h */,
+				0E9CC89018FAB66D00409C34 /* SignInViewController.m */,
+				0E9CC89518FAB88300409C34 /* ViewController.h */,
+				0E9CC89618FAB88300409C34 /* ViewController.m */,
+				0E9CC89818FAFB8600409C34 /* data.plist */,
+				0ED1D4BF18FEE24900F79223 /* RippleView.h */,
+				0ED1D4C018FEE24900F79223 /* RippleView.m */,
 			);
 			path = BeaconReceiver;
 			sourceTree = "<group>";
@@ -200,6 +222,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Ghao;
 				TargetAttributes = {
+					0E4DE12F18F5826600187189 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					0E4DE15018F5826600187189 = {
 						TestTargetID = 0E4DE12F18F5826600187189;
 					};
@@ -231,6 +260,7 @@
 			files = (
 				0E4DE14C18F5826600187189 /* Images.xcassets in Resources */,
 				0E4DE13E18F5826600187189 /* InfoPlist.strings in Resources */,
+				0E9CC89918FAFB8600409C34 /* data.plist in Resources */,
 				0E4DE14718F5826600187189 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED1D4C118FEE24900F79223 /* RippleView.m in Sources */,
+				0E9CC89118FAB66D00409C34 /* SignInViewController.m in Sources */,
 				0E4DE14018F5826600187189 /* main.m in Sources */,
 				0E4DE14A18F5826600187189 /* GHViewController.m in Sources */,
 				0E4DE14418F5826600187189 /* GHAppDelegate.m in Sources */,
+				0E9CC89718FAB88300409C34 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +490,7 @@
 				0E4DE16418F5826600187189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E4DE16518F5826600187189 /* Build configuration list for PBXNativeTarget "BeaconReceiverTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +499,7 @@
 				0E4DE16718F5826600187189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
