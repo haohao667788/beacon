@@ -2,3 +2,4 @@ beacon
 ======
 
 beacon
+lianlianshou!
